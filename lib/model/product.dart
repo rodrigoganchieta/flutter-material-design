@@ -21,7 +21,7 @@ class Product {
   final int price;
 
   String get assetName => '$id-0.jpg';
-  String get assetPackage => 'shrine_images';
+  String get assetPackage => 'flutter_material_design_codelabs';
 
   @override
   String toString() => "$name (id=$id)";
